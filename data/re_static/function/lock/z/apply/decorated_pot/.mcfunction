@@ -1,0 +1,1 @@
+execute unless data block ~ ~ ~ item run data merge block ~ ~ ~ {item:{id:"structure_void",count:1}}

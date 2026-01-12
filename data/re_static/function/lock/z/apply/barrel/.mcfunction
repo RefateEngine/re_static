@@ -1,0 +1,1 @@
+execute unless data block ~ ~ ~ lock run data merge block ~ ~ ~ {lock:{items:"air",count:1}}

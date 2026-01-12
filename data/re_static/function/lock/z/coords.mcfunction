@@ -1,0 +1,1 @@
+$execute positioned $(x) $(y) $(z) run function re_static:lock/z/apply/

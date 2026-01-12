@@ -1,0 +1,1 @@
+execute unless data block ~ ~ ~ lock run data merge block ~ ~ ~ {is_waxed:1b}

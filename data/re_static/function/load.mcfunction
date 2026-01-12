@@ -1,0 +1,1 @@
+scoreboard objectives add re_static dummy

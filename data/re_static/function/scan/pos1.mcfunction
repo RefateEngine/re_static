@@ -1,0 +1,2 @@
+execute align xyz summon marker run function re_static:scan/z/pos/1
+tellraw @s {"translate":"%1$s Pos1を%2$sに設定しました","with":[{"text":"[re_static]","color":"gold"},{"translate":"[%1$s,%2$s,%3$s]","with":[{"storage":"re_static:","nbt":"pos.1.x"},{"storage":"re_static:","nbt":"pos.1.y"},{"storage":"re_static:","nbt":"pos.1.z"}]}]}
