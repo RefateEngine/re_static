@@ -9,8 +9,6 @@
 それができたら`/function re_static:lock/`でリスト内のデータを使用し、ブロックにロックをかけます。<br>
 # customize
 アクションを起こすブロックを増やす手順<br>
-<ol>
-<li>ブロックタグ`re_static:interactive`に検知したいブロックidを追加します</li>
-<li>`re_static:scan/z/register`に追記してリストへ記入するidを決めます</li>
-<li>最後に`re_static:lock/z/apply`内を編集し、カスタム処理を実装します。</li>
-</ol>
+ブロックタグ`re_static:interactive`に検知したいブロックidを追加します<br>
+`re_static:scan/z/register`に追記してリストへ記入するidを決めます<br>
+最後に`re_static:lock/z/apply`内を編集し、カスタム処理を実装します。
