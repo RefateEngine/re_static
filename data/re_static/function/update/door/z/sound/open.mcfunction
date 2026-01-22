@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ #minecraft:wooden_doors run playsound minecraft:block.wooden_door.open block @a ~ ~ ~
+execute if block ~ ~ ~ #minecraft:doors unless block ~ ~ ~ #minecraft:wooden_doors run playsound minecraft:block.iron_door.open block @a ~ ~ ~

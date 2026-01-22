@@ -12,3 +12,9 @@
 ブロックタグ`re_static:interactive`に検知したいブロックidを追加します<br>
 `re_static:scan/z/register`に追記してリストへ記入するidを決めます<br>
 最後に`re_static:lock/z/apply`内を編集し、カスタム処理を実装します。
+# update
+## door
+実行座標のドアを開けたり閉めたりできます
+`/function re_static:update/door/open`
+`/function re_static:update/door/close`
+`/function re_static:update/door/toggle`
