@@ -1,0 +1,1 @@
+function re_static:update/door/close

@@ -5,3 +5,4 @@ execute if block ~ ~ ~ decorated_pot run data modify storage re_static: list[-1]
 execute if block ~ ~ ~ #wooden_shelves run data modify storage re_static: list[-1].id set value "wooden_shelves"
 execute if block ~ ~ ~ barrel run data modify storage re_static: list[-1].id set value "barrel"
 execute if block ~ ~ ~ #all_signs run data modify storage re_static: list[-1].id set value "all_signs"
+execute if block ~ ~ ~ #doors run data modify storage re_static: list[-1].id set value "doors"
